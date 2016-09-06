@@ -15,9 +15,9 @@ function starthtml(){
     html("		<meta name=\"revisit-after\" content=\"1 day\">");
     html("		<meta name=\"description\" content=\"Quotes from @Baconmuncher42\">");
 	html("		<meta name=\"keywords\" content=\"AJ, Baconmuncher42, Ajisms, Ajism\">");
+	html("		<meta property=\"og:image\" content=\"images/og.jpg\">");
+	html("		<link rel=\"shortcut icon\" href=\"images/favicon.ico\" type=\"image/x-icon\">");
 	html("		<title>AJISMS</title>");
-
-
 	html("		<link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">");
 	html("		<link rel=\"stylesheet\" href=\"css/kustom.css\">");
 	html("	</head>");
