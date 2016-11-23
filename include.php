@@ -51,37 +51,45 @@ function cleanmysql($string){
 	return $db->real_escape_string($string);	
 }
 
-function getquote(){
-	$array = array(
+$quote = array(
 		"Decently average",
-	 	"This ham is too dry it needs more mayo",
-	 	"I am not always stupid I just am stupid",
-	 	"i want to find a video toaster",
-	 	"does anyone know how to spell bureau?",
-	 	"Almost called plattsburg high school to tell the secretary that my sister had explosive diarrhea and Reid got hit by the shrapnel",
-	 	"60% of the time my thoughts are correct 100% of the time",
-	 	"Almost choked to death on a fruit snack shaped like a panda",
-	 	"my butt is unnaturally scratchy tonight",
-	 	"once apon a time a lizard ran for president, got pneumonia, then died",
-	 	"life isn't all bacon; ham and sausage is also involved",
-	 	"holy fricken fritos",
-	 	"if anyone needs me i am college prepping and by that i mean consuming large quantities of ramen noodels",
-	 	"moo",
-	 	"due to #BasketOfDeplorables inflation, Kmart has sold out of baskets",
-	 	"i made $6 dollars today",
-	 	"boogers are like oil filters in a ford. constantly leaky and full of shit",
-	 	"I don't speak mexican sarah",
-	 	"Linux is extraordinarily user friendly its just picky about who it's friends are",
-	 	"@lastpass? is that a type of laxative?",
-	 	"yo momma so fat she can file share conveniently very large files on a heavily fragmented disk drive",
+		"This ham is too dry it needs more mayo",
+		"I am not always stupid I just am stupid",
+		"i want to find a video toaster",
+		"does anyone know how to spell bureau?",
+		"Almost called plattsburg high school to tell the secretary that my sister had explosive diarrhea and Reid got hit by the shrapnel",
+		"60% of the time my thoughts are correct 100% of the time",
+		"Almost choked to death on a fruit snack shaped like a panda",
+		"my butt is unnaturally scratchy tonight",
+		"once apon a time a lizard ran for president, got pneumonia, then died",
+		"life isn't all bacon; ham and sausage is also involved",
+		"holy fricken fritos",
+		"if anyone needs me i am college prepping and by that i mean consuming large quantities of ramen noodels",
+		"moo",
+		"due to #BasketOfDeplorables inflation, Kmart has sold out of baskets",
+		"i made $6 dollars today",
+		"boogers are like oil filters in a ford. constantly leaky and full of shit",
+		"I don't speak mexican sarah",
+		"Linux is extraordinarily user friendly its just picky about who it's friends are",
+		"@lastpass? is that a type of laxative?",
+		"yo momma so fat she can file share conveniently very large files on a heavily fragmented disk drive",
 		"yo momma so fat she couldn't be converted to ntfs",
 		"Do they have mexican hippies?",
 		"I miss the rape van",
+		"That's a nice tv, It'll make a great boat anchor",
 	);
-	$random = rand(0,count($array)-1);
-
-	return $array[$random];
-
+function getquote(){
+	global $quote;
+	$random = rand(0,count($quote)-1);
+	return $quote[$random];
+}
+function allquotes($specific = null){
+	global $quote;
+	if($specific !== null){
+		return $quote[$specific];
+	} else {
+		return $quote;
+	}
 }
 
 ?>
