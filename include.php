@@ -77,6 +77,7 @@ function getquote(){
 		"yo momma so fat she couldn't be converted to ntfs",
 		"Do they have mexican hippies?",
 		"I miss the rape van",
+		"That's a nice tv, It'll make a great boat anchor",
 	);
 	$random = rand(0,count($array)-1);
 
