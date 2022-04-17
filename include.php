@@ -102,7 +102,8 @@ $quote = array(
 	"thanks to a previous tweet i may have burns on my ass now",
 	"why does a MS-DOS install floppy always break but a floppy with some 1990s bloatware work for eternity?",
 	"i just #farted and it smelled so bad the mold on this cheese beside me died.",
-	"I have made a noteworthy movement in the downstairs congress"
+	"I have made a noteworthy movement in the downstairs congress",
+        "I want to see this burn barrel loose it\'s virginity tonight"
 	
 );
 function getquote(){
