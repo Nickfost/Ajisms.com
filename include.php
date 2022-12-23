@@ -88,7 +88,7 @@ $quote = array(
 	"So now I have a carburetor bowl of raisins. What the hell am I supposed to do with that?",
 	"hey @LonelyGoomba i shipped an Atari 2600 and a copy of ET your way. that aughta be shitty enough for you.",
 	"taco doritos and salsa isn't what i thought it would be. it still tastes like SHIT.",
-	"anyone know what to do if you shat green? It was weird and kinda made me scared"
+	"anyone know what to do if you shat green? It was weird and kinda made me scared",
 	"If I could poop fire that would really be a pain in the ass",
 	"Hey @Nickfost_ remember that blue cupcake? I ate 4 bags of skittles so am I gonna shart the rainbow?",
 	"yo @drpepper thanks for your support. my heartburn and assquakes were very warming.",
