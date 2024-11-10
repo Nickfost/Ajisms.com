@@ -52,50 +52,49 @@ function cleanmysql($string){
 }
 
 $quote = array(
-	"Does anyone want a used Whopper"
-	"Employee grade hot dogs"
-	"Do you want to round up on your Taco Bell order today? No, because I seen on the TV how Roundup can cause cancer"
-	"Taxation is theft, jurors' duty is legalized slavery"
-	"a huge bag of queefs"
-	"go to www.beaverbelch.com"
-	"just remember guys, if you get kicked in the balls enough, you'll become numb to it and it won't matter anymore"
-	"Fuck you, bill gates - @nickfost_"
-	"God damn drinks at QT went up another .10 today - Damnit @taquitosarah"
-	"Congrats to 9 years of bullshit on this fucking trash ass platform that Elon fucking murdered"
-	"Walking through Walmart and saw a couple of people walk by with matching shirts, one said Dr Puffer and the other Mountain Dewbie"
-	"Competitive Air Queefing"
-	"7 peanut butter cookies and four cheap shit beers - the dinner of someone who no longer gives a fuck about life anymore"
-	"can't watch the goddamn golden girls tonight because @TCL_USA said that youtube needed to update and then it fucked my TV"
-	"I kinda want to see a zebra eat a moose"
-	"i just ate 6,530 calories in one setting at Burger King. Go fuck yourself @michelleobama"
-	"you can have it queef when it starts a torrent and fart when it completes one - @letsgetturnip"
-	"my body is an amazing machine. It will turn any type of food, doesn't matter what type of food, into shit. All ends up as poop out the end"
-	"this retarded post is brought to you in part by Windows 11"
-	"fuck you and your snow, and your cold shit. Go make a snow dildo and shove it up your snatch"
-	"hey, you're a queer. Do you use reddit? -@nickfost"
+	"Does anyone want a used Whopper",
+	"Employee grade hot dogs",
+	"Do you want to round up on your Taco Bell order today? No, because I seen on the TV how Roundup can cause cancer",
+	"Taxation is theft, jurors' duty is legalized slavery",
+	"a huge bag of queefs",
+	"go to www.beaverbelch.com",
+	"just remember guys, if you get kicked in the balls enough, you'll become numb to it and it won't matter anymore",
+	"Fuck you, bill gates - @nickfost_",
+	"God damn drinks at QT went up another .10 today - Damnit @taquitosarah",
+	"Congrats to 9 years of bullshit on this fucking trash ass platform that Elon fucking murdered",
+	"Walking through Walmart and saw a couple of people walk by with matching shirts, one said Dr Puffer and the other Mountain Dewbie",
+	"Competitive Air Queefing",
+	"7 peanut butter cookies and four cheap shit beers - the dinner of someone who no longer gives a fuck about life anymore",
+	"can't watch the goddamn golden girls tonight because @TCL_USA said that youtube needed to update and then it fucked my TV",
+	"I kinda want to see a zebra eat a moose",
+	"i just ate 6,530 calories in one setting at Burger King. Go fuck yourself @michelleobama",
+	"you can have it queef when it starts a torrent and fart when it completes one - @letsgetturnip",
+	"my body is an amazing machine. It will turn any type of food, doesn't matter what type of food, into shit. All ends up as poop out the end",
+	"this retarded post is brought to you in part by Windows 11",
+	"fuck you and your snow, and your cold shit. Go make a snow dildo and shove it up your snatch",
+	"hey, you're a queer. Do you use reddit? -@nickfost",
 	"Decently average",
-	"Pardon me whilst i connect to the internet in a different way to download from the internet an internet river, so that i may connect to the internet in my original way i had anticipated"
-	"Dick Cheetos"
-	"7-Eleven is proof that if there is a god, he hates all of us for the pain and suffering that you go through eating a god damn roller hamburger"
-	"Sarah is a racist"
-	"queefing is just a sign that you need to plunger your puss harder"
-	"i'll never forgive michelle obama for she took away my butter in high school for the dry hot rolls"
-	"if my ass was to play an instrument, what would it be? A toss up between the heiney harmonica or the butt bassoon"
-	"i have blasted Nick Foster with way too many lactose intolerance fueled farts"
-	"your face looks like a poorly rendered image from a nintendo 64"
-	"i farted and it sounded like i was tearing the pages out of a goddamn phone book"
-	"i need a smoke break and i dont even smoke"
-	"never underestimate the power of your irrelevance"
-	"the power of oxyclean is not enough to clean the mac and cheese farts from my underpants"
-	"i was trying to poop and then the farts just kept blasting out around the poop and then somehow the poop got stuck and i don't know how to feel about this. I am all out of farts and somehow stuck mid-poop."
-	"when laudering money, what brand of washing machine do you prefer?"
-	"i wish that the taco truck would tour my neigherhood like ice cream trucks"
-	"Fuck shoptemu, that is all"
-	"sometimes when i eat at arbys i need to poop directly afterwards. I don't know why i am tweeting this, but i just thought that everyone would like to know"
-	"this tweet was tweeted while i was sitting on the shitter in stall number three while taking a huge steamy shit"
-	"what kind of fucking hell is this bullshiti bastardistic asshole dickwad of a shitacular post of hog crap"
-	"if this flag offends you, fucking leave - points to the Ken-Taco-Hut flag"
-	"it is hot as fuck outside right now, and my work brought ice cream. If i eat it, my asshole retaliates. Fucking Fuck."
+	"Pardon me whilst i connect to the internet in a different way to download from the internet an internet river, so that i may connect to the internet in my original way i had anticipated",
+	"Dick Cheetos",
+	"7-Eleven is proof that if there is a god, he hates all of us for the pain and suffering that you go through eating a god damn roller hamburger",
+	"queefing is just a sign that you need to plunger your puss harder",
+	"i'll never forgive michelle obama for she took away my butter in high school for the dry hot rolls",
+	"if my ass was to play an instrument, what would it be? A toss up between the heiney harmonica or the butt bassoon",
+	"i have blasted Nick Foster with way too many lactose intolerance fueled farts",
+	"your face looks like a poorly rendered image from a nintendo 64",
+	"i farted and it sounded like i was tearing the pages out of a goddamn phone book",
+	"i need a smoke break and i dont even smoke",
+	"never underestimate the power of your irrelevance",
+	"the power of oxyclean is not enough to clean the mac and cheese farts from my underpants",
+	"i was trying to poop and then the farts just kept blasting out around the poop and then somehow the poop got stuck and i don't know how to feel about this. I am all out of farts and somehow stuck mid-poop.",
+	"when laudering money, what brand of washing machine do you prefer?",
+	"i wish that the taco truck would tour my neigherhood like ice cream trucks",
+	"Fuck shoptemu, that is all",
+	"sometimes when i eat at arbys i need to poop directly afterwards. I don't know why i am tweeting this, but i just thought that everyone would like to know",
+	"this tweet was tweeted while i was sitting on the shitter in stall number three while taking a huge steamy shit",
+	"what kind of fucking hell is this bullshiti bastardistic asshole dickwad of a shitacular post of hog crap",
+	"if this flag offends you, fucking leave - points to the Ken-Taco-Hut flag",
+	"it is hot as fuck outside right now, and my work brought ice cream. If i eat it, my asshole retaliates. Fucking Fuck.",
 	"This ham is too dry it needs more mayo",
 	"I am not always stupid I just am stupid",
 	"i want to find a video toaster",
